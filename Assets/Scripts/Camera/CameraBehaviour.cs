@@ -18,7 +18,6 @@ public class CameraBehaviour : MonoBehaviour {
 	void LateUpdate () {
 		
 		this.transform.position = ((playerOne.position + playerTwo.position) * .5f) + Vector3.forward * (cameraDepth) + Vector3.up * (cameraHeight);
-			// playerOne.position + Vector3.forward * (cameraDepth) + Vector3.up * (cameraHeight);
 
     }
 }

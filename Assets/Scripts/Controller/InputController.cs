@@ -10,6 +10,8 @@ public class InputController : MonoBehaviour {
 	public bool Crouch;
 	public bool LightAttack;
 
+	public bool Pause;
+
 	
 	// Update is called once per frame
 	void Update () {
@@ -19,6 +21,6 @@ public class InputController : MonoBehaviour {
 		Crouch = Input.GetButtonDown ("Crouch");
 
 		LightAttack = Input.GetButtonDown ("LightAttack");
-
+		Pause = Input.GetButtonDown ("Pause");
 	}
 }
